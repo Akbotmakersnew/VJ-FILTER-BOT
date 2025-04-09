@@ -65,9 +65,6 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Search Files', switch_inline_query_current_chat=query),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
-            ],[
                 InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐬', callback_data='stats'),
                 InlineKeyboardButton('💫 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
             ]]
@@ -149,9 +146,6 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Search again', switch_inline_query_current_chat=query),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
-            ],[
                 InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐬', callback_data='stats'),
                 InlineKeyboardButton('💫 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
             ]]
@@ -201,9 +195,6 @@ async def start(client, message):
             else:
                 buttons = [[
                     InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('Search Files', switch_inline_query_current_chat=query),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐬', callback_data='stats'),
                     InlineKeyboardButton('💫 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
